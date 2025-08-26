@@ -1,0 +1,21 @@
+{
+  "name": "chatbot-multi-turn-tester",
+  "version": "1.0.0",
+  "description": "Multi-turn conversation security testing tool",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:api\" \"npm run dev:web\"",
+    "dev:api": "cd api && npm run dev",
+    "dev:web": "cd web && npm run dev",
+    "install:all": "npm install && cd api && npm install && cd ../web && npm install",
+    "build": "cd api && npm run build && cd ../web && npm run build",
+    "start": "concurrently \"npm run start:api\" \"npm run start:web\"",
+    "start:api": "cd api && npm start",
+    "start:web": "cd web && npm start"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "keywords": ["chatbot", "security", "testing", "ai"],
+  "author": "",
+  "license": "MIT"
+} 
