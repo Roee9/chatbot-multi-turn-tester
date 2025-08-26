@@ -257,7 +257,9 @@ cd api && npm test
 - **ollama**: local open-source models (optional).
 - **openai**: hosted (optional).
 
-Example sample: see `api/samples/example_results.json`.
+Example sample:
+- **Sample Finding**  
+  ![Transcript](docs/screenshots/sample-finding.png)
 
 ---
 
